@@ -1,0 +1,11 @@
+<ion-input label="Default counter" labelPlacement="floating" [counter]="true" maxlength="20"></ion-input>
+<meta name="color-scheme" content="light dark" />
+
+<ion-input
+  id="custom-input"
+  label="Custom Counter Format"
+  labelPlacement="floating"
+  [counter]="true"
+  maxlength="20"
+  [counterFormatter]="customCounterFormatter"
+></ion-input>
